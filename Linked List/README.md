@@ -15,13 +15,13 @@ This directory contains various implementations of **Linked List** using C++. Al
 
 ## Operations Included in `singly_linked_list.cpp`
 
-- InsertAtEnd()	: Insert an element at the end of the list.
-- InsertAtBeginning() :	Insert an element at the start of the list.
-- InsertAtPosition() : Insert an element at a specific position.
-- DeleteAtEnd()	Delete : the last element in the list.
-- DeleteAtBeginning() : Delete the first element in the list.
-- DeleteAtPosition() : Delete an element at a specific position.
-- PrintList() :	Display all elements in the linked list.
+- `InsertAtEnd()`	: Insert an element at the end of the list.
+- `InsertAtBeginning()` :	Insert an element at the start of the list.
+- `InsertAtPosition()` : Insert an element at a specific position.
+- `DeleteAtEnd()`	: Delete the last element in the list.
+- `DeleteAtBeginning()` : Delete the first element in the list.
+- `DeleteAtPosition()` : Delete an element at a specific position.
+- `PrintList()` :	Display all elements in the linked list.
 
 ---
 
