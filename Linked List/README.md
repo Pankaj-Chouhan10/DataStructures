@@ -4,7 +4,7 @@ This directory contains various implementations of **Linked List** using C++. Al
 
 ---
 
-## 📁 Files and Descriptions
+## Files and Descriptions
 
 | File Name              | Description                            |
 |------------------------|----------------------------------------|
