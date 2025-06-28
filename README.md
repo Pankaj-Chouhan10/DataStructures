@@ -2,7 +2,7 @@
 Implementations of core Data Structures using C++
 This repository contains clean and well-documented implementations of core Data Structures using C++.
 
-## 📂 Contents
+## Contents
 
 - Stack  
 - Queue  
