@@ -6,9 +6,9 @@ This directory contains various implementations of **Linked List** using C++. Al
 
 ## 📁 Files and Descriptions
 
-| File Name              | Description                            | Type              |
-|------------------------|----------------------------------------|-------------------|
-| SinglyLinkedList.cpp   | Implementation of Singly Linked List   | Singly Linked List| 
+| File Name              | Description                            |
+|------------------------|----------------------------------------|
+| singly_linked_list.cpp | Implementation of Singly Linked List   |
 
 
 ---
