@@ -266,7 +266,7 @@ int main()
             L1.PrintList();
             break;
         case 8:
-            cout << "Program is End Final LIked List : ";
+            cout << "Program is End Final Linked List : ";
             L1.PrintList();
             break;
         default:
