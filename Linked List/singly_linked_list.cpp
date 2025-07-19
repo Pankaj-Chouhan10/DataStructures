@@ -17,7 +17,7 @@ public:
     }
 };
 // Class LinkedList to perform LinkedList operations :
-// InsertAtEnd , InsertAtBeginning , InsertAtPosition , DeleteAtEnd , DeleteAtEndBeginning , DeleteAtPosition , PrintList , IsEmpty .
+// InsertAtEnd , InsertAtBeginning , InsertAtPosition , DeleteAtEnd , DeleteAtBeginning , DeleteAtPosition , PrintList , IsEmpty .
 class LinkedList
 {
 public:
