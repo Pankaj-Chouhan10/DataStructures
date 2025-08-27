@@ -4,29 +4,49 @@ This directory contains various implementations of **Linked List** using C++. Al
 
 ---
 
-## Files and Descriptions
+## 📁 Files and Descriptions
 
-| File Name              | Description                            |
-|------------------------|----------------------------------------|
-| singly_linked_list.cpp | Implementation of Singly Linked List   |
-
+| File Name              | Description                            | Type              |
+|------------------------|----------------------------------------|-------------------|
+| SinglyLinkedList.cpp   | Implementation of Singly Linked List   | Singly Linked List| 
+| DoublyLinkedList.cpp   | Implementation of Doubly Linked List   | Double Linked List|
 
 ---
 
 ## Operations Included in `singly_linked_list.cpp`
 
-- `InsertAtEnd()`	: Insert an element at the end of the list.
-- `InsertAtBeginning()` :	Insert an element at the start of the list.
-- `InsertAtPosition()` : Insert an element at a specific position.
-- `DeleteAtEnd()`	: Delete the last element in the list.
-- `DeleteAtBeginning()` : Delete the first element in the list.
-- `DeleteAtPosition()` : Delete an element at a specific position.
-- `PrintList()` :	Display all elements in the linked list.
+- Insert at End
+- Insert at Beginning
+- Insert at Specific Position
+- Delete from End
+- Delete from Beginning
+- Delete from Specific Position
+- Print the List
 
 ---
 
+## Operations Included in `doubly_linked_list.cpp`
+
+- Insert at End
+- Insert at Beginning
+- Insert at Specific Position
+- Delete from End
+- Delete from Beginning
+- Delete from Specific Position
+- Print the List
+
+
 ## How to Run
 
+### Compile:
+```bash
+
+# singly_linked_list
 ```bash
 g++ singly_linked_list.cpp -o singlylinkedlist
 ./singlylinkedlist
+
+# doubly_linked_list
+```bash
+g++ doubly_linked_list.cpp -o doublylinkedlist
+./doublylinkedlist
