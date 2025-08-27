@@ -42,11 +42,10 @@ This directory contains various implementations of **Linked List** using C++. Al
 ```bash
 
 # singly_linked_list
-```bash
 g++ singly_linked_list.cpp -o singlylinkedlist
 ./singlylinkedlist
 
 # doubly_linked_list
-```bash
 g++ doubly_linked_list.cpp -o doublylinkedlist
 ./doublylinkedlist
+
