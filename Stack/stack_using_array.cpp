@@ -2,6 +2,7 @@
 using namespace std;
 
 class StackUsingArray{
+
     private:
         int top;
         int* stack;
@@ -19,13 +20,6 @@ class StackUsingArray{
            delete[] stack;
         }
 
-        bool isEmpty(){
-            return top == -1;
-        }
-        
-        bool isFull(){
-            return top == size-1;
-        }
         void Push(){
 
             if(isFull()){
@@ -34,13 +28,12 @@ class StackUsingArray{
             }
 
             int val;
-            
             cout<<"Enter the val : ";
             cin>>val;
             
             stack[++top] = val;
             cout<<stack[top]<<" Element is push in the stack\n";
-
+            
         }
 
         void Pop(){
@@ -67,20 +60,29 @@ class StackUsingArray{
                 cout<<"stack is empty\n";
                 return ;
             }
+            
             int tempTop = 0;
             cout<<"Element in the stack : ";
+            
             while(tempTop<top){
                 cout<<stack[tempTop]<<" , ";
                 tempTop++;
             }    
+            
             cout<<stack[top]<<" (top element)\n";
+        }
 
+        bool isEmpty(){
+            return top == -1;
+        }
+        
+        bool isFull(){
+            return top == size-1;
         }
 
 
 };
 
-// Main function
 int main()
 {
 
@@ -89,14 +91,14 @@ int main()
     cout<<"Enter size of the Stack : ";
     cin>>size;
 
-    // Object
+    
     StackUsingArray S1(size);
     int choice = -1;
-    // Operations based on choice
+    
     cout << endl;
     while (choice != 5)
     {
-        // Option to perform operation on Stack
+       
         cout << "==============================\n";
         cout << "         Stack Operations      \n";
         cout << "==============================\n";
@@ -107,9 +109,9 @@ int main()
         cout << "5. Exit\n";
         cout << "------------------------------\n";
         cout << "Enter your choice: ";
-        // input of option
+        
         cin >> choice;
-        // perform operation
+       
         switch (choice)
         {
         case 1:
