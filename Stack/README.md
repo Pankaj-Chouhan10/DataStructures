@@ -6,10 +6,11 @@ This folder contains two versions of the Stack implementation using Linked List 
 
 ## Files
 
-| File Name                           | Description                                                                     |
-|-------------------------------------|---------------------------------------------------------------------------------|
-| `stack_using_linked_list.cpp`       | Plain output, best for most compilers or minimal environments.                  |
-| `stack_using_linked_list_color.cpp` | Uses ANSI escape codes for color output, great for visual clarity in terminals. |
+| File Name                               | Description                                                          |
+|-----------------------------------------|----------------------------------------------------------------------|
+| `stack_using_array.cpp`                 | Stack implementation using a fixed-size array.                       |
+| `stack_using_linked_list.cpp`           | Stack implementation using a singly linked list.                     |
+| `stack_using_linked_list_color.cpp`     | Linked list stack with ANSI color output for terminal visualization. |
 
 ---
 
