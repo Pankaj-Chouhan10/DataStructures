@@ -2,7 +2,7 @@
 using namespace std;
 
 class StackUsingArray {
-
+ 
 private:
     int top;        // Index of current top element
     int* stack;     // Dynamic array for stack storage
