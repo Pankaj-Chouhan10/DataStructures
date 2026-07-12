@@ -60,7 +60,7 @@ public:
             cout << "Stack is Empty\n";
             return -1;
         }
- 
+
         cout << "Top Element of the Stack : " << stack[top] << '\n';
         return stack[top];
     }
