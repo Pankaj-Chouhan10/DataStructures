@@ -28,11 +28,11 @@ This folder contains two versions of the Stack implementation using Linked List 
 ### Compile:
 ```bash
 
-# Non-colored version
-g++ stack_using_linked_list.cpp -o stack
-./stack
+g++ stack_using_array.cpp -o stackUsingArray
+./stackUsingArray
 
-# Colored version
-g++ stack_using_linked_list_color.cpp -o stack_colored
-./stack_colored
+# Non-colored version / Colored version
+g++ stack_using_linked_list.cpp -o stackUsingLL
+./stackUsingLL
+
 
