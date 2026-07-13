@@ -1,7 +1,7 @@
 #include "iostream"
 using namespace std;
 
-// Class Node to create node in Queue
+// Class Node to create node in Queue [value , next]
 class Node
 {
 public:
